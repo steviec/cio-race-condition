@@ -6,6 +6,8 @@ To install:
 - run `npm install`
 
 To repro:
+
+This will run the test six times, since it doesn't happen every time.
 ```
 TRACKING_SITE_ID=<SITE_ID> TRACKING_API_KEY=<API_KEY> node ./index.js 
 ```
